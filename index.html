@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furnest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container"> 
+         <div class="navbar">
+        <div class="logo">
+            <img src="./Furnest logo.webp" alt="">
+        </div>
+        <div class="lists">
+           <a href=""><img src="./tick.png" alt=""> <li>Cart</li></a>
+           <li><div class="line">_________</div></li>
+           <a href=""><img src="./tick.png" alt=""> <li>Review</li></a>
+           <li><div class="line">_________</div></li>
+            <a href=""><img src="./number 3.jpeg" alt=""><li>Checkout</li></a>
+        </div>
+    </div>
+    <div class="body">
+        <div class="cart-section">
+        <h2>Checkout</h2>
+
+        <form class="shipping-info">
+            <label>Shipping Information</label>
+            <div class="btns">
+                <button class="first-btn">
+                    <label class="radio-container">
+                        <input type="radio" ><img src="./delivery.png" alt="">
+                        Delivery
+                    </label>
+                </button>
+            
+                <button class="second-btn">
+                    <label class="radio-container">
+                        <input type="radio">
+                        <img src="./pickup.png" alt="">
+                        Pick Up
+                    </label>
+                </button>
+            </div>
+           
+            
+        </form>
+        <div class="entry-part">
+        <form>
+            <label for="Full Name" class="full-name">
+                Full Name*
+            </label><br>
+            <input type="text" placeholder="  Enter Full Name">
+        </form>
+        
+        <form>
+            <label for="Email Address" class="email-address">
+                Email Address*
+            </label><br>
+            <input type="text" placeholder="  Enter Email Address">
+        </form>
+    
+        <form >
+            <label for="Phone Number" class="phone-number">
+                Phone Number*
+            </label><br>
+            <input type="text"  placeholder="  Enter Phone Number">
+            <br>
+            <label for="Country" class="count">Country*
+              <br>
+               <select class="Country">
+                <option value="Choose Country">Choose Country</option>
+                <option value="USA">USA</option>
+                <option value="India">India</option>
+                <option value="UK">United Kingdom</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Italy">Italy</option>
+                <option value="Spain">Spain</option>
+            </select>
+            </label>
+           <div class="city">
+            <form>
+            <label for="City">City
+             </label>
+            <input type="text" placeholder="  Enter City">
+            <label for="State" >State</label>
+            <input type="text" placeholder="  Enter State">
+            <label for="ZIP Code">ZIP Code</label>
+            <input type="text" placeholder="  Enter ZIP Code">
+        </form>
+        <span class="checkbox">
+            <input type="checkbox" name="" id="">
+            <p> 
+                I have read and agreed to the Terms and Conditions</p>
+        </span>
+       
+           </div>
+ 
+        
+        </form>
+        
+    </div>
+
+
+
+
+
+
+        </div>
+        <div class="checkout-section">
+          <div class="review">
+            <h2>Review your Cart</h2>
+            <div class="product-container">
+                <div class="stproduct">
+                    <img src="./sofa.jpeg" alt="">
+                    <div class="details">
+                        <h4>Duo comfort Sofa Pemium</h4>
+                        <h5>1X</h5>
+                        <h6>$20.00</h6>
+                    </div>
+                </div>
+                <div class="ndproduct">
+                    <img src="./desk.jpeg" alt="">
+                    <div class="details">
+                        <h4>Single king Size desk</h4>
+                        <h5>1X</h5>
+                        <h6>$116.00</h6>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="coupen-container">
+            <form action="">
+                <img src="./coupon.png" alt="">
+                <input type="text" placeholder="Discount Code">
+                <button>Apply</button>
+            </form>
+          </div>
+          <div class="subtotal">
+            <div class="text">
+                <div>Subtotal</div>
+                <div>Shipping</div>
+                <div>Discount</div>
+                <div>Total</div>
+            </div>
+            <div class="value">
+                <div>$136.00</div>
+                <div>$12.00</div>
+                <div>-$10.00</div>
+                <div>$138.00</div>
+            </div>
+          </div>
+          <!-- <button class="paynow">Pay Now</button> -->
+          <!-- <li><img src="./locked.png" alt="">Secure Checkout-SSL Encryption</li> -->
+          <!-- <p>Ensuring your financial and personal details are secure</p> -->
+        </div>
+    </div>
+</div>
+  
+</body>
+</html>
