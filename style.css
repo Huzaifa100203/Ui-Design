@@ -18,7 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(239, 219, 219);
     padding-inline: 100px;
 }
 .logo{
@@ -48,7 +48,7 @@
     align-items: center;
  padding-right: 500px;
     list-style: none;
-    font-weight: 650
+    font-weight: 650;
     
 }
 .lists a{
@@ -70,12 +70,18 @@ height: 15px;
     height: 100vh;
 padding-top:20px ;
 margin-left: 40px;
+border: 1px solid  rgb(239, 219, 219);
+border-left:none ;
 
+}
+.cart-section h2{
+    margin: 20px;
 }
 .checkout-section{
     width: 50%;
     height: 100vh;
     /* background-color: aqua; */
+    border: 1px solid  rgb(239, 219, 219);
 }
 .radio-container img{
     width: 15px;
@@ -93,6 +99,7 @@ width: 60%;
     align-items: start;
     justify-content: space-between;
     margin: 10px;
+    
 }
 .btns img{
     margin-left: 10px;
@@ -100,6 +107,8 @@ width: 60%;
 }
 .btns label{
     font-size: 12px;
+    
+
 }
 .first-btn{
  width: 140px;
@@ -107,7 +116,8 @@ width: 60%;
  display: flex;
  align-items: center;
  justify-content: center;
-
+border-radius: 10px;
+background-color: white;
 
 
    
@@ -119,6 +129,8 @@ width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
+background-color: white;
    
 
 }
@@ -153,22 +165,29 @@ flex-direction: column;
     align-items: start;
     justify-content: center;
     margin-left: 40px;
+    /* border: 1px solid black; */
 
 }
 .entry-part form{
     padding: 10px;
     height: 60px;
     }    
-
+.entry-part label{
+    /* margin-top: 10px; */
+    font-weight: 650;
+}
 
 .entry-part input{
-border: 1px solid black;
+border: 1px solid rgb(203, 190, 190);
     width: 500px;
     height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: start;
+    border-radius: 4px;
+   
+
 }
 .Country{
     width: 500px;
@@ -189,23 +208,23 @@ border: 1px solid black;
     display: flex;
     align-items: start;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
     /* gap: 10px; */
     padding-top: 30px;
 }
 
 .city input{
     width: 120px;
-    height: 30px;
+    height: 32px;
+    border-radius: 4px;
 }
-p{
-    font-size: 15px;
-}
-
 .checkout-section{
     width: 50%;
-    height: auto;
-    background-color: aqua;
+    height: 100vh;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 .review {
     width: 100%;
@@ -213,48 +232,66 @@ display: flex;
 align-items: start;
 justify-content: center;
 flex-direction: column;
-font-size: 15px;
-margin-top: 30px ;
-background-color: blue;
+font-size: 10px;
+margin-top: 50px ;
+/* background-color: blue; */
+margin-left: 50px;
+/* border: 1px solid black; */
 }
 .product-container{
     width: 50%;
-    background-color: red;
+    height: 180px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-   
-    border: 1px solid red;
+    justify-content: center;
+    /* text-align: start; */
+    /* border: 2px solid black; */
+    font-size: 15px;
+    /* margin-left: 50px */
 
 }
+
 .product-container img{
-    width: 60px;
-    /* height: 60px; */
+    width: 90px;
+    height: 70px;
+    margin-right: 18px;
+    
+}
+.product-container h6{
+    margin-top: 20px;
+    font-size: 14px;
 }
 .stproduct{
     width: 100%;
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
 
 }
+
 .ndproduct{
     width: 100%;
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
     margin-top: 30px;
+    
 }
 .coupen-container{
-    width: 50%;
-    height: 60px;
-    border: 1px solid black;
-  
+    width: 70%;
+    height: 45px;
+    border: 1px solid rgb(154, 140, 140);
+    margin-top: 20px;
     display: flex;
     align-items:  center;
     justify-content: center;
+    margin-left: 50px;
+    border-radius: 10px;
+
 }
 
 .coupen-container form{
@@ -266,7 +303,8 @@ background-color: blue;
     cursor: pointer;
 }
 .coupen-container form img{
-    width: 10%;
+    width: 9%;
+    height: 40px;
 }
 
 .coupen-container form button{
@@ -285,10 +323,69 @@ background-color: blue;
 .checkbox{
     width: 80%;
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: start;
+    margin-top: 200px;
+    margin-left: 20px;
+    font-size: 12px;
 }
 
 .checkbox input{
     width: 20px;
+    display: flex;
+    margin-right: 10px;
+}
+.subtotal{
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 50px;
+    list-style: none;
+    color: gray;
+}
+.subtotal li{
+    margin: 15px;
+}
+.Total{
+    font-weight: 650;
+    color: black;
+}
+.value{
+    color: black;
+}
+.lower-section button{
+    width: 70%;
+    background-color: rgb(76, 131, 233);
+    margin-left: 50px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.lower-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+}
+.lower-section img{
+    width: 18px;
+    margin-left: 70px;
+    margin-right: 10px;
+    
+}
+.lower-section li{
+    margin-top: 18px;
+    font-weight: 650;
+}
+.lower-section p{
+    margin-top: 10px;
+    margin-left: 70px;
+    color: gray;
 }
